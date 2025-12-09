@@ -5,7 +5,7 @@ This file contains rules and guidelines for AI assistants (like Windsurf/Cascade
 ## Core Documentation Principles
 
 ### 1. Structure & Organization
-- **ALWAYS** use the established folder structure (01-planning, 02-specifications, etc.)
+- **ALWAYS** use the established folder structure (strategy, operations, product, research, etc.)
 - **ALWAYS** follow naming conventions: lowercase with hyphens, dates in YYYY-MM-DD format
 - **ALWAYS** place files in the most appropriate folder based on content type
 - **ALWAYS** create README.md files for new folders explaining their purpose
@@ -28,8 +28,8 @@ This file contains rules and guidelines for AI assistants (like Windsurf/Cascade
 #### Tags
 - **ALWAYS** include relevant tags at the bottom of documents
 - Use consistent tag hierarchy:
-  - Primary category: `#planning`, `#specs`, `#business`, `#meeting`, `#decision`
-  - Project/topic: `#project-name`, `#feature-name`
+  - Primary category: `#strategy`, `#operations`, `#product`, `#research`, `#meetings`, `#vision`
+  - Document type: `#business-model`, `#okrs`, `#specs`, `#decision`, `#ai-research`, `#prompts`
   - Status: `#draft`, `#review`, `#approved`, `#archived`
   - Priority: `#high-priority`, `#medium-priority`, `#low-priority`
 - Format: `**Tags**: #tag1 #tag2 #tag3`
@@ -162,16 +162,79 @@ mindmap
 - Commit changes with descriptive commit messages
 
 ### 3. Document Archival
-- Move completed documents to `06-archive/` with appropriate subfolder
+- Move completed documents to `archive/` with appropriate subfolder
 - Add "ARCHIVED" prefix to filename
 - Update links in active documents
 - Include archive reason and date in document header
+
+## Folder Organization Guide
+
+### Document Placement Decision Tree
+Use this guide to determine the correct folder for new documents:
+
+#### **strategy/** - Strategic Planning & Business Model
+- Business model canvas and iterations
+- Strategic plans and roadmaps (3+ months)
+- OKRs and quarterly goals
+- Vision and mission statements
+- Growth strategies and market positioning
+- Investment and funding documentation
+
+#### **operations/** - Day-to-Day Business Operations
+- Standard operating procedures (SOPs)
+- Team structure and hiring processes
+- Financial operations and accounting
+- Legal and compliance documentation
+- Vendor and supplier management
+- Process documentation and workflows
+
+#### **product/** - Product Development & Technical Specs
+- Technical specifications and requirements
+- API documentation and design
+- Product roadmaps and feature planning
+- User experience and design documentation
+- Architecture decisions and technical debt
+- Development processes and standards
+
+#### **research/** - All Research & Analysis
+- Market research and industry analysis
+- Competitive analysis and intelligence
+- Customer research and personas
+- AI-generated research and insights
+- Trend analysis and future predictions
+- Research synthesis and cross-analysis
+
+#### **meetings/** - Meeting Notes & Decisions
+- Meeting notes and agendas
+- Decision records and rationale
+- Communication logs and updates
+- Action items and follow-ups
+- Team retrospectives and reviews
+
+#### **vision/** - Inspirational & Aspirational Content
+- Vision boards and goal visualization
+- Milestone celebrations and progress
+- Inspirational quotes and role models
+- Success metrics and achievement tracking
+- Personal and lifestyle aspirations
+
+#### **templates/** - Reusable Document Templates
+- Document templates for all categories
+- Example documents and best practices
+- Template instructions and guidelines
+- Standardized formats and structures
+
+#### **prompts/** - AI Prompt Library
+- Categorized AI prompts by purpose
+- Prompt optimization and effectiveness tracking
+- Multi-model prompt strategies
+- Prompt templates and frameworks
 
 ## AI Assistant Guidelines
 
 ### When Creating New Documents
 1. Ask which folder the document should go in if unclear
-2. Use appropriate template from `05-templates/`
+2. Use appropriate template from `templates/`
 3. Include all required metadata and formatting
 4. Add relevant tags and wikilinks
 5. Include Mermaid diagrams when they add value
@@ -192,11 +255,11 @@ mindmap
 5. Ensure proper folder organization
 
 ### When Conducting AI Research
-1. **ALWAYS** use the AI research template from `05-templates/`
+1. **ALWAYS** use the AI research template from `templates/`
 2. Document the AI model, version, and research date
 3. Include the exact prompt or query used
 4. Note confidence levels and limitations stated by the AI
-5. Store research in appropriate `08-ai-research/` subfolder
+5. Store research in appropriate `research/` subfolder
 6. Cross-reference with multiple AI models when possible
 7. Create synthesis documents for multi-model research
 8. Link AI research to relevant business documents
@@ -204,7 +267,7 @@ mindmap
 10. Include validation status and follow-up actions
 
 ### When Using Prompt Library
-1. **ALWAYS** check `10-prompt-library/` for existing prompts before creating new ones
+1. **ALWAYS** check `prompts/` for existing prompts before creating new ones
 2. Use proven prompts to ensure consistent, high-quality AI outputs
 3. Customize prompts with specific business context before use
 4. Document prompt effectiveness and suggest improvements

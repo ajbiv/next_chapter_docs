@@ -19,21 +19,24 @@ docs-project/
 ├── README.md                 # This file
 ├── .gitignore               # Git ignore patterns
 ├── .obsidian/               # Obsidian workspace settings (optional)
-├── 01-planning/             # Strategic planning documents
-├── 02-specifications/       # Technical specs and requirements
-├── 03-business/            # Business analysis and processes
-├── 04-meetings/            # Meeting notes and decisions
-├── 05-templates/           # Reusable templates
-├── 06-archive/             # Completed or outdated documents
-├── assets/                 # Images, diagrams, and other media
-└── _meta/                  # Project metadata and configuration
+├── strategy/                # Strategic planning and business model
+├── operations/              # Business operations and processes
+├── product/                 # Product development and specifications
+├── research/                # Market research and AI analysis
+├── meetings/                # Meeting notes and decisions
+├── vision/                  # Vision boards and inspirational content
+├── templates/               # Reusable document templates
+├── prompts/                 # AI prompt library
+├── archive/                 # Completed or outdated documents
+├── assets/                  # Images, diagrams, and other media
+└── _meta/                   # Project metadata and configuration
 ```
 
 ## Getting Started
 
 1. **Clone or Initialize**: This project is version controlled with Git
 2. **Obsidian Integration**: Add this folder to your Obsidian vault
-3. **Start Documenting**: Use the templates in `05-templates/` to create new documents
+3. **Start Documenting**: Use the templates in `templates/` to create new documents
 4. **Collaborate with AI**: Use this as your workspace for AI-assisted planning and analysis
 
 ## Best Practices
