@@ -203,6 +203,22 @@ mindmap
 9. Tag with AI model and research category
 10. Include validation status and follow-up actions
 
+### When Using Prompt Library
+1. **ALWAYS** check `10-prompt-library/` for existing prompts before creating new ones
+2. Use proven prompts to ensure consistent, high-quality AI outputs
+3. Customize prompts with specific business context before use
+4. Document prompt effectiveness and suggest improvements
+5. Create new prompts using the prompt template when needed
+6. Tag prompts by category, difficulty, and AI model compatibility
+
+### When Creating Vision Content
+1. **ALWAYS** connect vision elements to business strategy and planning
+2. Use visual elements (images, diagrams, charts) to enhance inspiration
+3. Include both aspirational and measurable goals
+4. Link vision board elements to OKRs and strategic plans
+5. Update vision content regularly based on progress and learnings
+6. Store visual assets in appropriate `assets/` subfolders
+
 ## File Naming Conventions
 
 ### General Rules
