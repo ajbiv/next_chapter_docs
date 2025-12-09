@@ -191,6 +191,18 @@ mindmap
 4. Recommend Mermaid diagrams where helpful
 5. Ensure proper folder organization
 
+### When Conducting AI Research
+1. **ALWAYS** use the AI research template from `05-templates/`
+2. Document the AI model, version, and research date
+3. Include the exact prompt or query used
+4. Note confidence levels and limitations stated by the AI
+5. Store research in appropriate `08-ai-research/` subfolder
+6. Cross-reference with multiple AI models when possible
+7. Create synthesis documents for multi-model research
+8. Link AI research to relevant business documents
+9. Tag with AI model and research category
+10. Include validation status and follow-up actions
+
 ## File Naming Conventions
 
 ### General Rules
@@ -206,6 +218,8 @@ mindmap
 - Project plans: `project-plan-mobile-app.md`
 - Specifications: `api-specification-v2.md`
 - Business docs: `stakeholder-analysis-q1.md`
+- AI research: `2025-12-09-gpt4-market-analysis-saas-trends.md`
+- Multi-model synthesis: `2025-12-09-synthesis-competitive-landscape.md`
 
 ## Quality Checklist
 
